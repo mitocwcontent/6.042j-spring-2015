@@ -1,0 +1,29 @@
+---
+content_type: page
+parent_title: 4.2 Conditional Probability
+parent_uid: 79ebde2b-537e-9e26-dc39-d5d2e1c8f1d9
+title: 4.2 Conditional Probability
+uid: d2351701-2859-3824-16b7-168f07711cf9
+---
+<ul class="navigation pagination"><li id="top_bck_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-038350815734';><<span>Monty Hall Problem: Video</span></a></li><li id="flp_btn_1" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1'>4.2.1<span>Conditional Probability Definitions: Video</span></a></li><li id="flp_btn_2" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-c84a5906e76d'>4.2.2<span>Dicey Sum</span></a></li><li id="flp_btn_3" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-4689ff047559'>4.2.3<span>Law of Total Probability: Video</span></a></li><li id="flp_btn_4" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-ca9fdfa21bb0'>4.2.4<span>Cavities and Candy</span></a></li><li id="flp_btn_5" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-1f097d8a0a33'>4.2.5<span>Bayes' Theorem: Video</span></a></li><li id="flp_btn_6" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-1c440a383ad3'>4.2.6<span>Two Boys</span></a></li><li id="flp_btn_7" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-038350815734'>4.2.7<span>Monty Hall Problem: Video</span></a></li><li id="flp_btn_8" class="button_selected"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-b447cf681095'>4.2.8<span>Conditional Probability</span></a></li><li id="flp_btn_9" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-dbc09e338aa5'>4.2.9<span>Dicey Game</span></a></li><li id="flp_btn_10" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-b7574f507526'>4.2.10<span>Watch Out For Crocodiles</span></a></li><li id="top_continue_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-dbc09e338aa5';>><span>Dicey Game</span></a></li></ul><h2 class="subhead">Conditional Probability</h2><div class="self_assessment">
+<br display_name="Conditional Probability" url_name="Conditional_Probability_0" />
+<p display_name="Conditional Probability" url_name="Conditional_Probability_1">
+    Let
+    <center>
+    \[A:= \text{the event that Albert is giving the lecture}\]
+    \[L:= \text{the event that Louis Reasoner goes to lecture}\]
+    </center>
+    where
+    \[\Pr[A] = 0.8\]
+    \[\Pr[L] = 0.4\]
+  </p>
+<p display_name="Conditional Probability" url_name="Conditional_Probability_2">
+    Also, the probability that Louis goes to lecture, given that Albert is giving the lecture, is 0.3.
+  </p>
+<div id="Q1_div" class="problem_question"><p display_name="Conditional Probability" url_name="Conditional_Probability_3">
+     What is the probability that Albert is giving the lecture, given that Louis Reasoner goes to lecture?
+  </p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Numerical Response</span><input type="text" id="Q1_input" value="" onkeypress="numericTypedOrDropDownSelected(1)" class="problem_text_input"><input type="hidden" id="Q1_ans" value="0.6"><input type="hidden" id="Q1_tolerance" value="0.0001"><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span></label></div><p id="S1_ans" tabindex="-1" class="problem_answer"></p></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Conditional Probability" url_name="Conditional_Probability_5">
+    Straightforward use of the <i>a posteriori</i> probability formula. By definition, \(\Pr[A\;|\;L]\cdot\Pr[L] = \Pr[A \cap L]
+    = \Pr[L \;|\; A]\cdot\Pr[A]\). Solving for \(\Pr[A\; |\; L]\) gives
+    \(\Pr[A\; |\; L] = \frac{Pr[L\; |\; A]\cdot\Pr[A]}{Pr[L]} = \frac{0.3 \cdot 0.8}{0.4} = 0.6.\)
+  </div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'numerical'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'numerical'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-038350815734';>Back<span>Monty Hall Problem: Video</span></a></li><li id="continue_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/probability/tp12-1/vertical-dbc09e338aa5';>Continue<span>Dicey Game</span></a></li></ul>
