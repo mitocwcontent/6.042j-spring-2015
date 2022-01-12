@@ -1,0 +1,20 @@
+---
+content_type: page
+parent_title: 2.4  RSA Encryption
+parent_uid: df8008a7-9d68-087d-809b-bd4cc447cdea
+title: 2.4  RSA Encryption
+uid: 3853aca8-42d4-9b36-aa0f-70c309ca4fa2
+---
+<ul class="navigation pagination"><li id="top_bck_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-10e2576c9510';><<span>Reducing Factoring To SAT: Video</span></a></li><li id="flp_btn_1" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2'>2.4.1<span>RSA Public Key Encryption: Video</span></a></li><li id="flp_btn_2" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-3299faa6fc3d'>2.4.2<span>RSA Encryption</span></a></li><li id="flp_btn_3" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-10e2576c9510'>2.4.3<span>Reducing Factoring To SAT: Video</span></a></li><li id="flp_btn_4" class="button_selected"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-d2f6dc0d86f4'>2.4.4<span>Relative Primality</span></a></li><li id="flp_btn_5" ><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-dea30f1864f2'>2.4.5<span>RSA computations</span></a></li><li id="top_continue_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-dea30f1864f2';>><span>RSA computations</span></a></li></ul><h2 class="subhead">Relative Primality</h2><div class="self_assessment">
+<br display_name="Relative Primality" url_name="Relative_Primality_0" />
+<div id="Q1_div" class="problem_question"><p display_name="Relative Primality" url_name="Relative_Primality_1">
+      How many numbers between 1 and 3780 (inclusive) are relatively prime to 3780?
+  </p><fieldset><legend class="visually-hidden">Exercise 1</legend><div class="choice"><label id="Q1_label"><span id="Q1_aria_status" tabindex="-1" class="visually-hidden">&amp;nbsp;</span><span class="visually-hidden">Text Response</span><input ckecktype="ci" onkeypress="numericTypedOrDropDownSelected(1)" value="" answer="864" type="text" id="Q1_input" class="problem_text_input"><span id="Q1_normal_status" class="nostatus" aria-hidden="true">&amp;nbsp;</span><span style="display:none;" id="Q1_ans_span" tabindex="-1">  Answer:864</span></label></div></fieldset></div><div id="S1_div" class="problem_solution" tabindex="-1" display_name="Relative Primality" url_name="Relative_Primality_3">
+<p>
+    \(3780 = 2^2 \cdot 3^3 \cdot 5 \cdot 7\), so using the formula for Euler's
+    \(\Phi\) function, there are
+    </p>
+<p>
+    \((4-2) \cdot (27-9) \cdot (5-1) \cdot (7-1) = 864\) such numbers.
+    </p>
+</div><div class="action"><button id="Q1_button" onclick="checkAnswer({1: 'stringresponse'})" class="problem_mo_button">Check</button><button id="Q1_button_show" onclick="showHideSolution({1: 'stringresponse'}, 1, [1])" class="problem_mo_button">Show Answer</button></div></div><ul class="navigation progress"><li id="bck_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-10e2576c9510';>Back<span>Reducing Factoring To SAT: Video</span></a></li><li id="continue_btn"><a href='/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/structures/tp6-2/vertical-dea30f1864f2';>Continue<span>RSA computations</span></a></li></ul>
