@@ -1,0 +1,54 @@
+{
+  "term": "Spring",
+  "year": "2015",
+  "level": [
+    "Undergraduate"
+  ],
+  "topics": [
+    [
+      "Engineering",
+      "Computer Science"
+    ],
+    [
+      "Mathematics",
+      "Applied Mathematics"
+    ],
+    [
+      "Mathematics",
+      "Probability and Statistics"
+    ]
+  ],
+  "legacy_uid": "923b3b5f-3601-3f7b-0a69-f560895e68fb",
+  "instructors": {
+    "content": [
+      "98ac3637-077b-4114-a6e7-bc8eb998e2e3",
+      "75c777df-d9cb-ecea-6250-b2fe1336797a"
+    ],
+    "website": "ocw-www"
+  },
+  "course_image": {
+    "content": "bf5ded22-92dd-7af1-4f94-2dfa6ad4f96c",
+    "website": "6-042j-mathematics-for-computer-science-spring-2015"
+  },
+  "course_title": "Mathematics for Computer Science",
+  "course_description": "This subject offers an interactive introduction to discrete mathematics oriented toward computer science and engineering. The subject coverage divides roughly into thirds:\n\n1.  Fundamental concepts of mathematics: Definitions, proofs, sets, functions, relations.\n2.  Discrete structures: graphs, state machines, modular arithmetic, counting.\n3.  Discrete probability theory.\n\nOn completion of 6.042J, students will be able to explain and apply the basic methods of discrete (noncontinuous) mathematics in computer science. They will be able to use these methods in subsequent courses in the design and analysis of algorithms, computability theory, software engineering, and computer systems.\n\nInteractive site components can be found on the Unit pages in the left-hand navigational bar, starting with [Unit 1: Proofs](pages/proofs).\n",
+  "department_numbers": [
+    "6",
+    "18"
+  ],
+  "extra_course_numbers": "18.062J",
+  "primary_course_number": "6.042J",
+  "course_image_thumbnail": {
+    "content": "b07562f0-da64-c024-954d-8f111ed4641f",
+    "website": "6-042j-mathematics-for-computer-science-spring-2015"
+  },
+  "learning_resource_types": [
+    "Lecture Videos",
+    "Problem Sets",
+    "Exams",
+    "Lecture Notes",
+    "Online Textbook"
+  ],
+  "site_uid": "2016f0f5-21fe-41ff-b4e9-89f9f89fbe81",
+  "title": "Course Metadata"
+}

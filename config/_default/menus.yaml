@@ -1,0 +1,220 @@
+leftnav:
+- identifier: 592b9888-2b8e-e6fc-f59d-73fc71ffa820
+  name: Syllabus
+  url: /pages/syllabus
+  weight: 10
+- identifier: 1bd2d357-6523-fe6c-8a8f-82aaec579197
+  name: Readings
+  url: /pages/readings
+  weight: 20
+- identifier: 118f09a2-89bc-f0f7-005f-6299a530d329
+  name: Lecture Slides
+  url: /pages/lecture-slides
+  weight: 30
+- identifier: 751443e0-4110-d1d9-57e6-e5a847c9853e
+  name: In-Class Questions
+  url: /pages/in-class-questions
+  weight: 40
+- identifier: 8da72fce-08fe-c8a5-71c1-e09779e12577
+  name: Assignments
+  url: /pages/assignments
+  weight: 50
+- identifier: f88eb615-5830-2f3d-c3e2-2a63752606ef
+  name: Exams
+  url: /pages/exams
+  weight: 60
+- identifier: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  name: 'Unit 1: Proofs'
+  url: /pages/proofs/
+  weight: 70
+- identifier: ea224ef6-f868-e6de-a69a-53241486c324
+  name: 1.1 Intro to Proofs
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp1-1/
+  weight: 80
+- identifier: 604f8e07-2680-3e77-8aac-7885f0f6eaf0
+  name: 1.2 Proof Methods
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp1-2/
+  weight: 90
+- identifier: 376535e1-bbaf-1919-fdc3-bdd7b7043dea
+  name: 1.3 Well Ordering Principle
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp2-1/
+  weight: 100
+- identifier: 8de160a9-e729-9f7f-ec8a-58aef5106eef
+  name: 1.4 Logic & Propositions
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp2-2/
+  weight: 110
+- identifier: 101f2dc9-8b98-78a0-6c0f-57e750015c84
+  name: 1.5 Quantifiers & Predicate Logic
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp3-1/
+  weight: 120
+- identifier: ffb87b8b-4f73-c33b-d6b3-5402fc830d03
+  name: 1.6  Sets
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp3-2/
+  weight: 130
+- identifier: dc4329a2-0693-5f01-be73-cf0b227cc3ed
+  name: 1.7 Binary Relations
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp3-3/
+  weight: 140
+- identifier: 5179d7c0-c3f7-a60a-33d7-c24d9d219172
+  name: 1.8  Induction
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp4-1/
+  weight: 150
+- identifier: 470546ac-8124-6c93-8505-a0f7571765aa
+  name: 1.9  State Machines - Invariants
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp4-2/
+  weight: 160
+- identifier: dc6ecd4f-10b9-4f9f-9744-a385e4bab210
+  name: 1.10 Recursive Definition
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/recursive-definition/
+  weight: 170
+- identifier: 7b14af4d-9845-97ad-4109-98ecc9fb9f71
+  name: 1.11  Infinite Sets
+  parent: 95af5c7b-87a2-e157-90a7-ad18331a125f
+  url: /pages/proofs/tp4-3/
+  weight: 180
+- identifier: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  name: 'Unit 2: Structures'
+  url: /pages/structures/
+  weight: 190
+- identifier: 40569305-3755-e5d6-fb1b-1e2592fa311e
+  name: 2.1  GCDs
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp5-1/
+  weight: 200
+- identifier: 30a0182e-39fc-2a66-241e-fb67db839b1d
+  name: 2.2  Congruences
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp5-2/
+  weight: 210
+- identifier: 8083cb55-8a36-eb8d-ad32-920ceb95cfdb
+  name: 2.3  Euler's Theorem
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp6-1/
+  weight: 220
+- identifier: df8008a7-9d68-087d-809b-bd4cc447cdea
+  name: 2.4  RSA Encryption
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp6-2/
+  weight: 230
+- identifier: 711aeeca-1552-65f2-21e5-af2643f1a05f
+  name: '2.5  Digraphs: Walks & Paths'
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp6-3/
+  weight: 240
+- identifier: 30a03ec2-6577-751d-fb8c-5b6d0813ce12
+  name: 2.6 Directed Acyclic Graphs (DAGs) & Scheduling
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp7-1/
+  weight: 250
+- identifier: e3bcfae1-ff3e-4391-a255-e7aa0a942756
+  name: 2.7 Partial Orders and Equivalence
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/partial-orders-and-equivalence/
+  weight: 260
+- identifier: a3d45286-2b82-1913-8b1e-93f45114b315
+  name: 2.8  Degrees & Isomorphism
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp7-2/
+  weight: 270
+- identifier: 109f4d41-cb88-fdaa-de16-336e6c117167
+  name: 2.9 Coloring & Connectivity
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp7-3/
+  weight: 280
+- identifier: cbeb9c37-cb9c-a67c-cf21-6c0b8aeab325
+  name: 2.10 Trees
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/tp8-1/
+  weight: 290
+- identifier: 47305688-cc38-9e2f-9dc3-019a395b3b37
+  name: 2.11 Stable Matching
+  parent: 20b0a2b7-a262-cb94-efd4-4e9e00511cee
+  url: /pages/structures/stable-matching/
+  weight: 300
+- identifier: 39106ddf-6e81-10d0-b3ef-0b61eb07512d
+  name: 'Unit 3: Counting'
+  url: /pages/counting/
+  weight: 310
+- identifier: 93998ab0-0443-52e8-5efc-b877380e8e28
+  name: 3.1 Sums & Products
+  parent: 39106ddf-6e81-10d0-b3ef-0b61eb07512d
+  url: /pages/counting/tp8-2/
+  weight: 320
+- identifier: 7fcb0761-6e29-48a6-ad10-caa832263c78
+  name: 3.2 Asymptotics
+  parent: 39106ddf-6e81-10d0-b3ef-0b61eb07512d
+  url: /pages/counting/tp8-3/
+  weight: 330
+- identifier: 71ca5272-63f2-4aa7-d717-ef63328e47ef
+  name: 3.3 Counting with Bijections
+  parent: 39106ddf-6e81-10d0-b3ef-0b61eb07512d
+  url: /pages/counting/tp9-1/
+  weight: 340
+- identifier: c8103e15-328b-9991-c077-4e6c0892ba9f
+  name: 3.4 Repetitions & Binomial Theorem
+  parent: 39106ddf-6e81-10d0-b3ef-0b61eb07512d
+  url: /pages/counting/tp9-2/
+  weight: 350
+- identifier: d45e9517-2acf-2a43-0d67-a0ef15468161
+  name: 3.5 Pigeonhole Principle, Inclusion-Exclusion
+  parent: 39106ddf-6e81-10d0-b3ef-0b61eb07512d
+  url: /pages/counting/tp10-1/
+  weight: 360
+- identifier: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  name: 'Unit 4: Probability'
+  url: /pages/probability/
+  weight: 370
+- identifier: 4414c612-ae42-4c73-7466-f4715f85e319
+  name: 4.1 Intro to Discrete Probability
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp11-2/
+  weight: 380
+- identifier: 79ebde2b-537e-9e26-dc39-d5d2e1c8f1d9
+  name: 4.2 Conditional Probability
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp12-1/
+  weight: 390
+- identifier: 90eace8a-4b31-0417-7362-8667f8f3497b
+  name: 4.3 Independence & Causality
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp12-2/
+  weight: 400
+- identifier: 5d000a4e-2a13-daae-80b1-331e90d2f442
+  name: 4.4 Random Variables, Density Functions
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp12-3/
+  weight: 410
+- identifier: 025c498f-3f5e-1c53-924f-7e40eb06a220
+  name: 4.5 Expectation
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp13-1/
+  weight: 420
+- identifier: f195ee84-9b9a-ee3c-cf61-f90bea10cebb
+  name: '4.6 Deviation: Markov & Chebyshev Bounds'
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp13-2/
+  weight: 430
+- identifier: a3bc4574-329a-2834-df03-0de577ce1f81
+  name: 4.7 Sampling & Confidence
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/tp14-1/
+  weight: 440
+- identifier: ec31be5e-21ec-45ab-3eab-7ab45d2e85b7
+  name: 4.8 Random Walks & Pagerank
+  parent: 90a207e8-2f8b-3b13-6906-7b58f9c6f169
+  url: /pages/probability/random-walks-pagerank/
+  weight: 450
+- identifier: 6d80f058-abf4-04cb-4370-6b5cfc3197ef
+  name: Resource Index
+  url: /pages/resource-index
+  weight: 460
